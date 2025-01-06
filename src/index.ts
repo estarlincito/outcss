@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import postcss from 'postcss';
+import postcssConfig from 'postcss.config';
 import { v4 as uuidv4 } from 'uuid';
-const postcssConfig = require('./postcss.config.js');
 
 // Path to the output CSS file
 const outputCSSPath = path.join(__dirname, '../dist/styles.css');

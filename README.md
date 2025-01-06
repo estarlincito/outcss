@@ -35,8 +35,8 @@ pnpm install outcss
 Here’s a simple example of how to use the library:
 
 ```typescript
-import { css } from '@outcss';
-import '@outcss/styles.css'; // Import the generated CSS
+import { css } from 'outcss';
+import 'outcss/styles.css'; // Import the generated CSS
 
 const buttonClass = css`
   background-color: blue;
